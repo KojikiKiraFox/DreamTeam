@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg">
+        <header class="header section">
+            <div class="container">
+                <div class="header-items">
+                    <div class="logo">
+                        <a href="#" class="logo-link"><img src="./img/logo.png" alt="Logo" class="logo-img"></a>
+                    </div>
+                    <!-- /.logo -->
+                    <div class="navigation">
+                        <nav class="navigation-items">
+                            <ul class="navigation-ul">
+                                <li class="navigation-item"><button class="navigation-button" id="routes">Маршруты</button></li>
+                                <li class="navigation-item"><button class="navigation-button" id="gallery">Галерея</button>
+                                </li>
+                                <li class="navigation-item"><button class="navigation-button"
+                                        id="question">Вопрос-Ответ</button></li>
+                                <li class="navigation-item"><button class="navigation-button"
+                                        id="contacts">Контакты</button></li>
+                                <li class="navigation-item"><button class="navigation-button"
+                                        id="booking">Забронировать</button></li>
+                            </ul>
+                            <!-- /.navigation-ul -->
+                        </nav>
+                        <!-- /.nav-items -->
+                    </div>
+                    <!-- /.navigation -->
+                    <div class="num-but">
+                        <div class="num">
+                            <img src="./img/phone.svg" alt="phone" class="phone-img">
+                            <a href="tel:89283332645" class="phone-link">+7 928 333 26 45</a>
+                        </div>
+                        <button class="phone-btn btn">Перезвоните мне</button>
+                    </div>
+                    <!-- /.num-but -->
+                </div>
+                <!-- /.header-items -->
+            </div>
+        </header>
+        <!-- /.header section -->
+        
+        <section class="hero section">
+            <div class="container">
+                <div class="hero-items">
+                    <h1 class="hero-title">Экскурсии на квадроциклах в Геленджике</h1>
+                    <h2 class="hero-subtitle">приезжайте за новыми ощущениями и эмоциями!</h2>
+                    <button class="hero-btn btn btn-blue" id="heroBtn">Подобрать маршрут <img src="./img/arrowr.svg" alt="arrow" class="hero-btn__img"></button>
+                </div>
+                <!-- /.hero-items -->
+            </div>
+        </section>
+        <!-- /.hero section -->
+
+    </div>
+    <!-- /bg -->
+    <main>
+        <section class="benefits section">
+            <div class="container">
+                <div class="benefits-items">
+                    <div class="benefits-item">
+                        <img src="./img/benefits/01.svg" alt="01" class="benefits-item__img">
+                        <h2 class="benefits-item__title">Увлекательные экскурсии</h2>
+                        <h3 class="benefits-item__subtitle">Маршруты от лесных дорожек до полного бездорожья!</h3>
+                    </div>
+                    <!-- /.benefits-item -->
+                    <div class="benefits-item">
+                        <img src="./img/benefits/02.svg" alt="02" class="benefits-item__img">
+                        <h2 class="benefits-item__title">Надежная техника</h2>
+                        <h3 class="benefits-item__subtitle">18 квадроциклов всех японских брендов</h3>
+                    </div>
+                    <!-- /.benefits-item -->
+                    <div class="benefits-item">
+                        <img src="./img/benefits/03.svg" alt="03" class="benefits-item__img">
+                        <h2 class="benefits-item__title">Экипировка бесплатно</h2>
+                        <h3 class="benefits-item__subtitle">Необходимая экипировка выдается бесплатно</h3>
+                    </div>
+                    <!-- /.benefits-item -->
+                    <div class="benefits-item">
+                        <img src="./img/benefits/04.svg" alt="04" class="benefits-item__img">
+                        <h2 class="benefits-item__title">Опытные инструктора</h2>
+                        <h3 class="benefits-item__subtitle">Обеспечат полную безопасность Вашего отдыха</h3>
+                    </div>
+                    <!-- /.benefits-item -->
+                </div>
+            </div>
+        </section>
+        <!-- /.benefits section -->
+
+        <section class="routes section">
+            <h2 class="section-title route-title">Наши маршруты</h2>
+            <div class="route-slider" id="sliderOne">
+                <div class="route-slide">
+                    <div class="route-slide__left">
+                        <h2 class="route-slide__title">БАЗОВЫЙ</h2>
+                        <h3 class="route-slide__subtitle">от 4000</h3>
+                        <div class="route-slide__info">
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/01.svg" alt="01" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Время в пути: <span class="route-slide__info-bold">1,5
+                                        - 2 часа</span> </h3>
+                            </div>
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/02.svg" alt="02" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Расстояние: <span class="route-slide__info-bold">20 -
+                                        25 км </span>
+                                </h3>
+                            </div>
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/03.svg" alt="03" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Сложность: <span
+                                        class="route-slide__info-bold">5***</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="route">
+                            <h2 class="route-slide__title-route">маршрут <img src="./img/routes/04.svg" alt="04" class="route-slide__title-img"></h2>
+                            <h3 class="route-slide__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви) - -Форсаж</h3>
+                        </div>
+                        <div class="slide-buttons">
+                            <button class="slide-btn btn btn-empy">Подробнее</button>
+                            <button class="slide-btn btn btn-blue">Забронировать</button>
+                        </div>
+                    </div>
+                    <div class="route-slide__right">
+                        <img src="./img/routes/05.png" alt="05" class="route-slide__right-img">
+                    </div>
+                </div>
+                <!-- /.route-slide -->
+
+                <div class="route-slide" style="display: none;">
+                    <div class="route-slide__left">
+                        <h2 class="route-slide__title">БАЗОВЫЙ</h2>
+                        <h3 class="route-slide__subtitle">от 4000</h3>
+                        <div class="route-slide__info">
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/01.svg" alt="01" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Время в пути: <span class="route-slide__info-bold">1,5
+                                        - 2 часа</span> </h3>
+                            </div>
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/02.svg" alt="02" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Расстояние: <span class="route-slide__info-bold">20 -
+                                        25 км </span>
+                                </h3>
+                            </div>
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/03.svg" alt="03" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Сложность: <span
+                                        class="route-slide__info-bold">5***</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="route">
+                            <h2 class="route-slide__title-route">маршрут <img src="./img/routes/04.svg" alt="04"
+                                    class="route-slide__title-img"></h2>
+                            <h3 class="route-slide__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+                                - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви) - -Форсаж</h3>
+                        </div>
+                        <div class="slide-buttons">
+                            <button class="slide-btn btn btn-empy">Подробнее</button>
+                            <button class="slide-btn btn btn-blue">Забронировать</button>
+                        </div>
+                    </div>
+                    <div class="route-slide__right">
+                        <img src="./img/routes/05.png" alt="05" class="route-slide__right-img">
+                    </div>
+                </div>
+                <!-- /.route-slide -->
+
+                <div class="route-slide" style="display: none;">
+                    <div class="route-slide__left">
+                        <h2 class="route-slide__title">БАЗОВЫЙ</h2>
+                        <h3 class="route-slide__subtitle">от 4000</h3>
+                        <div class="route-slide__info">
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/01.svg" alt="01" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Время в пути: <span class="route-slide__info-bold">1,5
+                                        - 2 часа</span> </h3>
+                            </div>
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/02.svg" alt="02" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Расстояние: <span class="route-slide__info-bold">20 -
+                                        25 км </span>
+                                </h3>
+                            </div>
+                            <div class="route-slide__info-item">
+                                <img src="./img/routes/03.svg" alt="03" class="route-slide__info-img">
+                                <h3 class="route-slide__info-txt">Сложность: <span
+                                        class="route-slide__info-bold">5***</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="route">
+                            <h2 class="route-slide__title-route">маршрут <img src="./img/routes/04.svg" alt="04"
+                                    class="route-slide__title-img"></h2>
+                            <h3 class="route-slide__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+                                - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви) - -Форсаж</h3>
+                        </div>
+                        <div class="slide-buttons">
+                            <button class="slide-btn btn btn-empy">Подробнее</button>
+                            <button class="slide-btn btn btn-blue">Забронировать</button>
+                        </div>
+                    </div>
+                    <div class="route-slide__right">
+                        <img src="./img/routes/05.png" alt="05" class="route-slide__right-img">
+                    </div>
+                </div>
+                <!-- /.route-slide -->
+
+                <div class="route-dots">
+                    <button class="route-dot route-dot-active"></button>
+                    <button class="route-dot"></button>
+                    <button class="route-dot"></button>
+                </div>
+                <!-- /.route-dots -->
+            </div>
+        </section>
+        <!-- /.routes section -->
+
+        <section class="choice section">
+            <div class="container">
+                <h2 class="choice-title">Затрудняетесь выбрать маршрут?</h2>
+                <h3 class="choice-subtitle">Пройдите тест и мы поможем вам подобрать оптимальную под вас экскурсию</h3>
+                <a href="#" class="btn btn-blue choice-btn">Начать тест</a>
+            </div>
+        </section>
+        <!-- /.choice section -->
+    </main>
+</body>
+</html>
