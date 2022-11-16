@@ -45,6 +45,9 @@
         text-transform: uppercase;
         color: #fff;
         transition: .3s;
+        &__footer{
+            color: #000;
+        }
         &:hover{
             color: #037E8C;
         }

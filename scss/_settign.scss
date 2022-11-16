@@ -51,24 +51,29 @@ a {
 
 input{
     font-family: inherit; 
-    font-size: inherit; 
-    line-height: inherit; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
     margin: 0; 
-    border:none;
+    border: 1px solid #000000;
     border-radius: 5px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 20px 30px;
     &:focus{
         background-color: #fff;
-        border-color: #bdbdbd;
-        outline: 0;
+        border: 1px solid #000000;
+        outline: none;
+        border-radius: 5px;
         box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
     }
 }
 
 input[type="submit"]{
-    padding: 10px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid #000;
+    padding: 25px;
+    background: #037E8C;
+    box-shadow: 0px 6px 25px rgba(3, 126, 140, 0.6);
+    border-radius: 9px;
+    color: #fff;
     transition: .3s;
 
 }
